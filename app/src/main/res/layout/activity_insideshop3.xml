@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Order Details"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textSize="30dp"
+       android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/eT1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+       android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+
+        android:inputType="textShortMessage"
+        android:hint="Enter Your  Order Information" />
+
+    <EditText
+        android:id="@+id/eT2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Your Name and Contact Details" />
+
+    <EditText
+        android:id="@+id/eT3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+
+        android:inputType="text"
+        android:hint="Choose Your Payment Method" />
+
+    <EditText
+        android:id="@+id/eT4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+
+
+        android:inputType="textPostalAddress"
+        android:hint="Enter your Adresses" />
+
+    <Button
+        android:id="@+id/btnOrder3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Order  Now" />
+</LinearLayout>
